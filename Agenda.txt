@@ -1,0 +1,8 @@
+
+
+1. GIT BASIC
+2. JS BASIC
+
+
+GIT CMD
+git init -- initializing a git lab
