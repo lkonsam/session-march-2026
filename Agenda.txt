@@ -6,3 +6,7 @@
 
 GIT CMD
 git init -- initializing a git lab
+git add <. => all the files from this directory> <filenames - specific file>
+
+git remote add <variableForOrigin> https://github.com/lkonsam/session-march-2026.git
+git remote -v
