@@ -110,6 +110,26 @@
 // console.log( model, yahoo );
 
 
-let arr = ["tomba", "singh"];
-let [ a, b ] = arr;
-console.log(a, b);
+let arr = ["tomba", "singh", "rahul"]; 
+let [ a, , b] = arr; //Array destructuring // tomba rahul
+console.log(a, b); //tomba rahul
+// myRestFn(1, 2, 3, 5);
+// function myRestFn( ...arg ){ //rest operator
+//     console.log(arg);
+// }
+let [ c, ...d] = arr; //Array destructuring // tomba [ 'singh', 'rahul' ]
+console.log(c, d); //tomba [ 'singh', 'rahul' ]
+ 
+const num = [4, 5, ...arr]; //spread operator // [ 4, 5, 'tomba', 'singh', 'rahul' ]
+
+
+
+
+console.log( num ); 
+// console.log( arr ); 
+// console.log( ...arr ); //spread operator
+
+// myRestFn(1, 2, 3, 5);
+// function myRestFn( ...arg ){ //rest operator
+//     console.log(arg);
+// }
