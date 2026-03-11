@@ -1,12 +1,20 @@
+1. GIT
 
 
-1. GIT BASIC
-2. JS BASIC
+2: 
+DataType and Variables
+Expression, Operation, Functions
+String, Immutable, String laterals
 
 
-GIT CMD
-git init -- initializing a git lab
-git add <. => all the files from this directory> <filenames - specific file>
+Pascal, Camel, Snake
 
-git remote add <variableForOrigin> https://github.com/lkonsam/session-march-2026.git
-git remote -v
+sumoftwonumber
+
+		SumOfTwoNumber
+
+		sumOfTwoNumber
+
+		sum_of_two_number
+		
+		xyz = 
