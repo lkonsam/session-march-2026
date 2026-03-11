@@ -66,13 +66,13 @@
 
 
 
-let shinobi = {
-  name: "Naruto Uzumaki",
-  "family": "green",
-   age: 17,
-  'village': "Leaf Village",
-   isNinja: true
-};  
+// let shinobi = {
+//   name: "Naruto Uzumaki",
+//   "family": "green",
+//    age: 17,
+//   'village': "Leaf Village",
+//    isNinja: true
+// };  
 
 
 
@@ -85,26 +85,31 @@ let shinobi = {
 // console.log( shinobi["name"] );
 
 
-const bird = {
-    size: 'cat'
-};
+// const bird = {
+//     size: 'cat'
+// };
 
-const animal = {
-    cat: "mango",
-    yahoo: "Lata",
-    "my name" : "Konsam"
-};
+// const animal = {
+//     cat: "mango",
+//     yahoo: "Lata",
+//     "my name" : "Konsam"
+// };
 // A. animal.bird.size is invalid
-// B. animal.bird[size] is invalid
+// B. animal[bird.size]  is invalid
 // C. animal.bird["size"] is invalid
 // D. All are valid
 // console.log( animal.bird.size ); //invalid
-// console.log( animal[bird.size]  ); //invalid
+// console.log( animal[bird.size]  ); //valid
 // console.log( animal.bird["size"]  ); //invalid
 
-animal.company = "Wipro";
-// delete animal.cat;
-console.log( animal );
-const { cat: model, yahoo: yahoo} = animal; //Object destructuring
+// animal.company = "Wipro";
+// // delete animal.cat;
+// console.log( animal );
+// const { cat: model, yahoo: yahoo} = animal; //Object destructuring
 
-console.log( model, yahoo );
+// console.log( model, yahoo );
+
+
+let arr = ["tomba", "singh"];
+let [ a, b ] = arr;
+console.log(a, b);
