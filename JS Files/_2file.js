@@ -28,6 +28,7 @@
 // const num = [2, 5, 1, 0, 10];
 
 
+
 // const total = num.reduce( //it take the first element as the value of the accumulator and function continue from second index
 //     ( a, ele   ) => {
 //       return a + "  " + (2 * ele);
@@ -66,7 +67,7 @@
 
 
 
-// let shinobi = {
+// let shinobi = { //object and object of a class is different
 //   name: "Naruto Uzumaki",
 //   "family": "green",
 //    age: 17,
@@ -76,11 +77,11 @@
 
 
 
-// console.log(typeof(shinobi.name));    // 1
-// console.log(typeof(shinobi.family));  // 2 
-// console.log(typeof(shinobi.age));     // 3
-// console.log(typeof(shinobi.village)); // 4
-// console.log(typeof(shinobi.isNinja));
+// console.log(typeof(shinobi.name));    // string
+// console.log(typeof(shinobi.family));  // string
+// console.log(typeof(shinobi.age));     // number
+// console.log(typeof(shinobi.village)); // string
+// console.log(typeof(shinobi.isNinja)); //boolean
 
 // console.log( shinobi["name"] );
 
@@ -94,10 +95,10 @@
 //     yahoo: "Lata",
 //     "my name" : "Konsam"
 // };
-// A. animal.bird.size is invalid
-// B. animal[bird.size]  is invalid
-// C. animal.bird["size"] is invalid
-// D. All are valid
+// A. animal.bird.size is invalid //true
+// B. animal[bird.size]  is invalid //false  //animal["cat"] //valid
+// C. animal.bird["size"] is invalid //true //   undefined["size"] //error
+// D. All are valid //false
 // console.log( animal.bird.size ); //invalid
 // console.log( animal[bird.size]  ); //valid
 // console.log( animal.bird["size"]  ); //invalid
@@ -105,27 +106,27 @@
 // animal.company = "Wipro";
 // // delete animal.cat;
 // console.log( animal );
-// const { cat: model, yahoo: yahoo} = animal; //Object destructuring
+// const { cat: model, yahoo } = animal; //Object destructuring
 
 // console.log( model, yahoo );
 
 
-let arr = ["tomba", "singh", "rahul"]; 
-let [ a, , b] = arr; //Array destructuring // tomba rahul
-console.log(a, b); //tomba rahul
+// let arr = ["tomba", "singh", "rahul"]; 
+// let [ a, , b] = arr; //Array destructuring // tomba rahul
+// console.log(a, b); //tomba rahul
 // myRestFn(1, 2, 3, 5);
 // function myRestFn( ...arg ){ //rest operator
-//     console.log(arg);
+//     console.log(arg); // [1, 2, 3, 5]
 // }
-let [ c, ...d] = arr; //Array destructuring // tomba [ 'singh', 'rahul' ]
-console.log(c, d); //tomba [ 'singh', 'rahul' ]
+// let [ c, ...d] = arr; //Array destructuring // tomba [ 'singh', 'rahul' ]
+// console.log(c, d); //tomba [ 'singh', 'rahul' ]
  
-const num = [4, 5, ...arr]; //spread operator // [ 4, 5, 'tomba', 'singh', 'rahul' ]
+// const num = [4, 5, ...arr]; //spread operator // [ 4, 5, 'tomba', 'singh', 'rahul' ]
 
 
 
 
-console.log( num ); 
+// console.log( num ); 
 // console.log( arr ); 
 // console.log( ...arr ); //spread operator
 
