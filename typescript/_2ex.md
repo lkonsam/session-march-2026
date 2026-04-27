@@ -94,6 +94,8 @@ Difference between void and never
 Optional vs default params
 Why define return types?
 Function typing vs inference
+
+
 🧪 EXERCISES (Lesson 2)
 
 Try these 👇
