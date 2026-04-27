@@ -66,13 +66,13 @@
 
 // const createUser: CreateUserType = (user) => `${user.name} is ${user.age} years old`;
 
-type MyObjType = {
-    name: string,
-    roll: number
-};
-type MyObjType = { //error type cannot be redeclare
-    std: number
-};
+// type MyObjType = {
+//     name: string,
+//     roll: number
+// };
+// type MyObjType = { //error type cannot be redeclare
+//     std: number
+// };
 
 
 // let myObj: MyObjType = {
